@@ -1,0 +1,38 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.drop-area {
+  width: 100%;
+  height: 200px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.drop-area p {
+  text-align: center;
+}
+
+.files {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.files li {
+  margin-bottom: 10px;
+}
+
+.files li .name {
+  font-weight: bold;
+}
+
+.files li .type {
+  font-size: 12px;
+}
+
+.files li .size {
+  font-size: 12px;
+}

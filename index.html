@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="filter">
+        <input type="number" placeholder="Минимальный размер (МБ)">
+        <select name="type">
+          <option value="">Все типы</option>
+          <option value="image/jpeg">Изображения (JPEG)</option>
+          <option value="image/png">Изображения (PNG)</option>
+          <option value="image/gif">Изображения (GIF)</option>
+          <option value="application/pdf">PDF-файлы</option>
+          <option value="application/msword">Word-файлы</option>
+        </select>
+        <button type="button">Применить</button>
+      </div>
+  <div class="container">
+    <h1>Загрузчик файлов</h1>
+    <div class="drop-area">
+      <p>Перетащите файлы сюда</p>
+    </div>
+    <input type="file" multiple>
+    <ul class="files">
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
